@@ -1,0 +1,25 @@
+{
+  "name": "Apps For X Light",
+  "version": "0.0.1",
+  "description": "Onepage template for small hackathons that is very lightweight. Only the essentials.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wesley Vanbrabant",
+      "email": "wesleyvanbrabant@openknowledge.be"
+    }
+  ],
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-util": "*"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
