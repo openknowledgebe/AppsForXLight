@@ -1,0 +1,184 @@
+.container, .nav-container{
+    width: 1040px;
+    clear: both;
+    padding:10px 0;
+    
+    @media screen and (max-width: 1080px){
+        width: 100%;
+    }  
+}
+
+.extra-spacing {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body {
+    font-family: $font-family-sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-serif;
+    font-weight: bold;
+}
+
+.button, .btn {
+    font-family: $font-family-serif;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey-light {
+  background-color: $grey-light;
+}
+
+.bg-grey {
+  background-color: $grey-dark;
+} 
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-white {
+  color: $white;
+}
+
+.bg-pattern-green {
+  //background-image: url("../assets/images/patterns-green-background.svg");
+  //background-color: $green-light;
+  //background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOo2sFQDwAElAGyy5g1dAAAAABJRU5ErkJggg==), url("../assets/images/patterns-green-background.svg");
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100;Blue+3d+%238 */
+    background: repeating-linear-gradient(
+        45deg,
+        darken($green, 5%),
+        darken($green, 5%) 7px,
+        #D2D2D2 7px,
+        #D2D2D2 14px
+    );
+}
+
+.bg-pattern-blue {
+  //background-image: url("../assets/images/patterns-blue-background.svg");
+  //background-color: $blue-light;
+    background: repeating-linear-gradient(
+        45deg,
+        darken($blue-light, 5%),
+        darken($blue-light, 5%) 7px,
+        transparent 7px,
+        transparent 14px
+    );
+}
+
+.bg-pattern-yellow {
+  //background-image: url("../assets/images/patterns-yellow-background.svg");
+  //background-color: $yellow-light;
+    background: repeating-linear-gradient(
+        45deg,
+        darken($yellow-light, 5%),
+        darken($yellow-light, 5%) 7px,
+        #525252 7px,
+        #525252 14px
+    );
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.shadow {
+  box-shadow: 0 1px 6px $grey-dark, 0 1px 6px $grey-dark;
+}
+
+/**
+ * Programme
+ */
+ 
+ @media screen and (min-width: 768px) {
+    #site-programme > .container > .row {
+        display:  -webkit-box;
+        display: -webkit-flex;
+        display:  -ms-flexbox;
+        display:         flex;
+    }
+}
+ 
+.timetable {
+    margin: 0;
+    
+    span {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 1.2em;
+    }
+    
+    .row {
+        display:  -webkit-box;
+        display: -webkit-flex;
+        display:  -ms-flexbox;
+        display:         flex;
+    }
+    
+    .col-xs-3 {
+        border-right: 1px solid $color-medium;
+        border-bottom: 1px solid $color-medium;
+    }
+    
+    .col-xs-9 {
+        border-bottom: 1px solid $color-medium;
+    }
+    
+    @media screen and (min-width: 768px) {
+        margin: 1em;
+        
+        .row:last-of-type {
+            .col-xs-9, .col-xs-3 {
+                border-bottom: none;
+            }
+        }
+    }
+} 
