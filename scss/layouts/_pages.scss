@@ -1,0 +1,97 @@
+/**
+ * Global Variables and CSS
+ */
+
+.section {
+  padding: 2em 0;
+}
+
+.info-cards {
+  &>div {
+      display: flex;
+  }
+}
+
+.card-white {
+
+    padding: 0 1em;
+    
+    @media screen and (max-width: 767px) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    h4:not(:first-child) {
+        margin-top: 20px;
+    }
+ 
+}
+
+/**
+ * Section overrides
+ */
+ 
+#site-intro {  
+    h1 {
+        margin-bottom: 10px;
+        font-size: 2.5em;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+   
+    @media(max-width: 480px) { 
+        h1 {
+            font-size: 1.8em;
+        }
+        
+        h2 {
+            font-size: 1.6em;
+        }
+    }
+}
+
+#site-info {
+  
+  .info-container {
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .info-container > div {
+      margin-bottom: 1em; 
+      
+      &:last-of-type {
+        margin-bottom: 0em;
+      }
+    }
+    
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+}
+ 
+.info-small {
+    font-size: 1.2em;
+    display: block;
+}
+ 
+.info-bold {
+  display: block;
+}
+
+.info-nr {
+  display: block;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.info-icon {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+/**
+ * Form
+ */
+ 
+.subscribe-form {
+  margin-top: 20px;
+  width: 100%;
+  
+  input {
+    width: 70%;
+    padding:1em 1.5em;
+    margin: auto 0;
+    border: none;
+    outline: none;
+    color: $blue;
+    background-color: $blue-light;
+    
+    &:focus {
+      outline: none;
+      background-color: lighten($blue-light, 3%);
+    }
+  }
+  
+  ::-webkit-input-placeholder {
+    color: $white;
+  }
+  
+  input[type="submit"] {
+    width: 30%;
+    background-color: $blue;
+    color: $white;
+    
+    &:hover {
+       background-color: darken($blue, 3%);  
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+      input, input[type="submit"] {
+          width: 100%;
+      }
+  }
+} 
