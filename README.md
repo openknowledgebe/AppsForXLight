@@ -11,14 +11,14 @@ people can use for the hackathons they are organizing, or if they don't really h
 
 Before we go ahead, there are several colors from which you can use to easily edit your theme. You may use these
 and the classes they are used in freely, but you might want to change them to fit the colors
-that are being used in the styleguide of your hackathon.
+that are being used in the styleguide of your hackathon. [check out our demo!](http://openknowledgebe.github.io/AppsForXLight/) for an example.
 
 If you find the functionalities lacking, feel free to check out:
 https://github.com/openknowledgebe/AppsForX
 
 This has more eloborate functionalities, like a blog, showcase, twitter wall and what not. 
 
-Other than that, feel free to fork & pull request if you have improvements or work further upon this. Cheers!
+Other than that, feel free to fork if you have improvements or want to work further upon this. Cheers!
 
 ### Deployment
 
