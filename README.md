@@ -9,7 +9,7 @@ Hey there! Welcome to Apps For X Light.
 This repository is meant as a lightweight website template that 
 people can use for the hackathons they are organizing, or if they don't really have all too much time to put in their website.
 
-Before we go ahead, there are several colors from which you can use to easily edit your theme ([check our demo here live!](http://openknowledgebe.github.io/AppsForXLight/)) . You may use these
+Before we go ahead, there are several colors from which you can use to easily edit your theme. You may use these
 and the classes they are used in freely, but you might want to change them to fit the colors
 that are being used in the styleguide of your hackathon.
 
@@ -18,8 +18,7 @@ https://github.com/openknowledgebe/AppsForX
 
 This has more eloborate functionalities, like a blog, showcase, twitter wall and what not. 
 
-Other than that, feel free to fork & if you have improvements or work further upon this.
-
+Other than that, feel free to fork & pull request if you have improvements or work further upon this. Cheers!
 
 ### Deployment
 
