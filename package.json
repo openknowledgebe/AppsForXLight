@@ -1,5 +1,5 @@
 {
-  "name": "Apps For X Light",
+  "name": "AppsForXLight",
   "version": "0.0.1",
   "description": "Onepage template for small hackathons that is very lightweight. Only the essentials.",
   "license": "MIT",
@@ -19,7 +19,11 @@
     "gulp-util": "*"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/openknowledgebe/AppsForXLight/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/openknowledgebe/AppsForXLight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openknowledgebe/AppsForXLight.git"
+  }
 }
