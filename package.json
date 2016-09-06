@@ -13,7 +13,7 @@
     "bower": "*",
     "gulp": "*",
     "gulp-concat": "*",
-    "gulp-minify-css": "*",
+    "gulp-clean-css": "^2.0.12",
     "gulp-rename": "*",
     "gulp-sass": "*",
     "gulp-util": "*"
